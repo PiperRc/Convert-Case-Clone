@@ -1,0 +1,8 @@
+sentenceCase:
+
+doesnt work if there is a leading space
+only work if the sentences are divided by a period('.')
+
+
+word count:
+only works for spaces, not ('.')

@@ -1,0 +1,186 @@
+
+
+.sections {
+	display:flex;
+	justify-content:space-between;
+}
+.sections button{
+	/*border:1px solid red;*/
+
+    color:white;
+    background-color:black;
+	width:24.8%;
+	margin-top:0;
+	font-weight: bold;
+
+}
+#convert_case_button{
+	background-color:rgb(216,216,216);
+/*	font-weight: bold;*/
+	color:black;
+}
+
+#convert_case_button:hover{
+	cursor: pointer;
+}
+/*#small_text_generator_button,#wide_text_generator,#more_tools_button{
+	font-weight: bold;
+}*/
+
+#small_text_generator_button:hover,#wide_text_generator_button:hover,#more_tools_button:hover{
+	background-color:rgb(216,216,216);
+	font-weight: bold;
+	cursor: pointer;
+	color:black;
+}
+
+
+main h1{
+	font-weight: bold;
+	font-size:1.25rem;
+	padding:0.5rem;
+	}
+
+#enter_text_paragraph{
+	padding-left: 0.5rem;
+}
+
+main form{
+	margin-left:0.5rem;
+	
+}
+#text_box{
+	width:93%;
+	padding-bottom:9rem;
+}
+
+.action_btns{
+	/*border:1px solid green;*/
+	padding-top: 0.25rem;
+	margin-left:40px;
+   
+}
+
+.action_btns button{
+	font-weight: bold;
+
+}
+.action_btns button:hover{
+	background-color: black;
+	color:white;
+	cursor: pointer;
+}
+
+#sentence_btn{
+	margin-left: 1.5rem;
+}
+#copy_btn{
+	margin-left:1.5rem;
+}
+
+.counts{
+	display:flex;
+	margin-left:0.625rem;
+	margin-bottom:32rem;
+}
+
+.social_media_links{
+	margin-left:2rem;
+}
+
+.social_media_links button{
+	color:white;
+	font-weight: bold;
+}
+#facebook{
+	margin-left:2rem;
+	background-color: steelblue;
+}
+
+#tweet{
+	background-color: dodgerblue;
+}
+
+#paypal{
+	background-color: #003171;
+}
+
+#travel{
+	background-color: #006442;
+}
+#kylv{
+    background-color: #87D37C;
+	margin-left: 1.5rem;
+}
+#random{
+	color:black;
+	font-weight: normal;
+}
+
+.credits{
+	margin-top:0.5rem;
+	margin-left:2rem;
+}
+.credits span{
+	margin-left:0.5rem;
+}
+
+.languages{
+	background-color:white;
+	padding-top:0.5rem;
+}
+
+.languages button{
+	color:black;
+	font-weight: bold;
+	font-size:0.625rem;
+	text-align:center;
+	padding:0;
+	width:0.2%;
+
+}
+
+.languages button:hover{
+	background-color: black;
+	font-weight: bold;
+	color:white;
+
+}
+
+.languages button:nth-child(11){
+	margin-left:11.5rem;
+	margin-top: 0.2rem;
+}
+
+.languages button:nth-child(1){
+	margin-left:1rem;
+	}
+
+.welcome,
+.sentence_case,
+.lower_case,
+.upper_case,
+.cap_case,
+.alternating_case,
+.title_case,
+.small_text_generator,
+.wide_text_generator,
+.strike_through_text_generator,
+.reverse_text_generator,
+.upside_text,
+.morse_code,
+.binary,
+.bold_text,
+.italic_text,
+.underline_text,
+.mirror_text,
+.unicode,
+.zalgo,
+footer
+{
+	padding-top:0.5rem;
+}
+
+footer{
+	font-weight:100;
+}
